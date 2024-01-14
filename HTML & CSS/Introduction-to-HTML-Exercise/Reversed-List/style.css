@@ -1,0 +1,20 @@
+section {
+  background-color: #e6e5e5;
+  margin: auto;
+  width: 25%;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+
+h3 {
+  color: #123256;
+  text-align: center;
+}
+
+ol li {
+  padding: 5px;
+}
+
+ol {
+  text-decoration-line: underline;
+}
