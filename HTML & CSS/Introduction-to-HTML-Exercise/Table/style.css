@@ -1,0 +1,20 @@
+table,
+td,
+th {
+  border: solid 2px;
+  border-collapse: collapse;
+}
+
+h2 {
+  font-size: xx-large;
+}
+
+table,
+thead {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+tbody,
+tfoot {
+  text-align: right;
+}
