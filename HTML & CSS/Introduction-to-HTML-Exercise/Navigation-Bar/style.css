@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+nav {
+  background-color: lightgray;
+}
+nav ul {
+  margin: 0;
+  text-align: center;
+  padding: 10px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  color: #2ea62e;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+a:hover {
+  background-color: #009900;
+  color: white;
+  border-radius: 6px;
+}
