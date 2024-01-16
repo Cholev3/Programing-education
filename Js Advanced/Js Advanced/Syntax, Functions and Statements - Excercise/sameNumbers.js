@@ -8,15 +8,11 @@ function sameNumbers(num) {
   for (let currentLetter of numToStr) {
     if (currentLetter !== letter) {
       areSame = false;
-      break;
     }
-  }
-
-  for (let currentLetter of numToStr) {
     sum += Number(currentLetter);
   }
 
   console.log(areSame);
   console.log(sum);
 }
-sameNumbers(2222222);
+sameNumbers(1234);
