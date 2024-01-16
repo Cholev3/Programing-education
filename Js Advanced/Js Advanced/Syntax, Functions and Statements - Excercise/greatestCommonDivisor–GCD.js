@@ -10,9 +10,9 @@ function greatestCommonDivisor(a, b) {
   //   console.log(b);
 
   let gcd = 0;
-  let higherNum = a > b ? a : b;
+  let lowerNum = a < b ? a : b;
 
-  for (let i = 0; i <= higherNum; i++) {
+  for (let i = 0; i <= lowerNum; i++) {
     if ((a % i == 0) & (b % i == 0)) {
       if (i > gcd) {
         gcd = i;
@@ -21,4 +21,4 @@ function greatestCommonDivisor(a, b) {
   }
   console.log(gcd);
 }
-greatestCommonDivisor(15, 5);
+greatestCommonDivisor(4576, 542);
