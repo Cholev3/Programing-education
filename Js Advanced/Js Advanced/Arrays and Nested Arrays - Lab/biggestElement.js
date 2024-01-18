@@ -1,3 +1,5 @@
+// (matrix) => Math.max(...matrix.flat());
+
 function biggestElement(matrix) {
   let biggestNum = Number.NEGATIVE_INFINITY;
 
