@@ -12,11 +12,14 @@ function solve() {
          let bufferArr = [];
 
          for (let currentRow of currentArr) {
-            if (currentRow.textContent.includes(searchRef.value)) {
-               row.classList.add("select");
-               break;
-            } else {
-               row.classList.remove("select");
+            if (searchRef.value.length > 0) {
+
+               if (currentRow.textContent.includes(searchRef.value)) {
+                  row.classList.add("select");
+                  break;
+               } else {
+                  row.classList.remove("select");
+               }
             }
          }
 
